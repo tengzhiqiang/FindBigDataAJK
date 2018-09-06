@@ -11,7 +11,7 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 public class HttpConnect {
-	public static String url ="https://blog.csdn.net/zhuwukai/article/details/78644484";
+	public static String url ="https://ks.anjuke.com/sale/o5-p1/#filtersort";
 	
 	
 	public static void main(String[] args) {
@@ -24,6 +24,7 @@ public class HttpConnect {
 		CloseableHttpClient client = builder.build();
 		
 		HttpGet request = new HttpGet(url);
+		request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0"); // 设置请求头消息User-Agent
 		String content = "";
 		
 		try {
@@ -33,7 +34,7 @@ public class HttpConnect {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println(content);
+		JsoupAnalyse.analyseHtml(content);
 	}
 
 }
