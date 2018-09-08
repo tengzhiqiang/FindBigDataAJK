@@ -18,7 +18,7 @@ public class RegexUtil {
 		Pattern pattern = Pattern.compile("[0-9]*");
         Matcher isNum = pattern.matcher(content);
 		if (isNum.find()) {
-			return isNum.
+			return isNum.group(0);
 		}
 		
 		return null;
