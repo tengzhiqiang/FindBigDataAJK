@@ -22,9 +22,9 @@ public class HttpConnect {
 		String pattern = "yyyy-MM-dd HH:mm:ss";
 		Date date = new Date();
 		
-		for(int i=1;i<51;i++) {
+//		for(int i=1;i<51;i++) {
 			
-			String url = modelUrl.replace("昆山", i+"");
+			String url = modelUrl.replace("昆山", 25+"");
 			
 			String content = downPage(url);//下载
 			
@@ -36,8 +36,8 @@ public class HttpConnect {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-		}
-		System.out.println("开始"+DateFormatUtils.format(date, pattern));
+//		}
+		
 		System.out.println("采集结束."+DateFormatUtils.format(new Date(), pattern));
 		
 	}
