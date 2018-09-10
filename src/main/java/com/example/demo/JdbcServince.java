@@ -3,11 +3,12 @@ package com.example.demo;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class JdbcServince {
 
-	private static final String URL = "jdbc:mysql://127.0.0.1:3306/anjuke?useSSL=false";
+	private static final String URL = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false";
 	private static final String USER = "root";
 	private static final String PASSWORD = "";
 
@@ -30,7 +31,7 @@ public class JdbcServince {
 		return conn;
 	}
 	
-	public static void excute(Connection cnn,String sql) {
+	public static void excuteUpdate(Connection cnn,String sql) {
 		PreparedStatement pst = null;
 		try {
 			pst = cnn.prepareStatement(sql);
@@ -38,6 +39,27 @@ public class JdbcServince {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+//		finally{
+//			try {
+//				cnn.close();
+//				pst.close();
+//			} catch (SQLException e) {
+//				e.printStackTrace();
+//			}
+//		}
 	}
+	
+	public static ResultSet excutQuery(Connection cnn,String sql) {
+		PreparedStatement pst = null;
+		ResultSet rs = null;
+		try {
+			pst = cnn.prepareStatement(sql);
+			rs = pst.executeQuery();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return rs;
+	}
+
 
 }

@@ -13,7 +13,9 @@ public class SealEntity {
 	private String totleprice;//总价
 	private String unitprice;//单价
 	private String zoone;//区域
+	private String plotname;//小区名称
 	private int ajk;//安选验真
+	private String addtime;
 	
 	
 	public long getId() {
@@ -87,6 +89,18 @@ public class SealEntity {
 	}
 	public void setAjk(int ajk) {
 		this.ajk = ajk;
+	}
+	public String getPlotname() {
+		return plotname;
+	}
+	public void setPlotname(String plotname) {
+		this.plotname = plotname;
+	}
+	public String getAddtime() {
+		return addtime;
+	}
+	public void setAddtime(String addtime) {
+		this.addtime = addtime;
 	}
 	
 	
