@@ -6,6 +6,7 @@ import java.util.Date;
 import org.apache.commons.lang3.time.DateFormatUtils;
 
 import com.example.demo.JdbcServince;
+import com.example.demo.entity.DetailPage;
 import com.example.demo.entity.PageEntity;
 import com.example.demo.entity.SealEntity;
 import com.example.demo.service.IStoreService;
@@ -42,6 +43,15 @@ public class StoreService implements IStoreService {
 		sql += "'"+addtime+"'";
 		sql += ")";
 		JdbcServince.excuteUpdate(JdbcServince.getConnection(), sql);
+	}
+
+	@Override
+	public void storeDetailPge(DetailPage detailPage) {
+		String addtime = DateFormatUtils.format(new Date(), pattern);
+		String sql = "INSERT INTO t_sealpage (fatherid, content,addtime) VALUES ('"+detailPage.getFatherid()+"','"+detailPage.getContent()+"','"+addtime+"')";
+		Connection cnn = JdbcServince.getConnection();
+		JdbcServince.excuteUpdate(cnn, sql);
+		
 	}
 
 }

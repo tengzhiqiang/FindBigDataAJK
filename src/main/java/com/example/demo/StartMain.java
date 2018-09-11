@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.commons.lang3.time.DateFormatUtils;
 
+import com.example.demo.entity.DetailPage;
 import com.example.demo.entity.PageEntity;
 import com.example.demo.entity.SealEntity;
 import com.example.demo.service.IDownHtml;
@@ -30,10 +31,39 @@ public class StartMain {
 		stm.setStoreService(new StoreService());
 		
 		
-		saveSeal(stm);
+		getDetailPage(stm);
+	}
+	
+	public static void getDetailPage(StartMain stm) {
+		String pattern = "yyyy-MM-dd HH:mm:ss";
+		Date date = new Date();
+		
+		int start=0,limit =50,i=0;
+		List<SealEntity> seals = stm.getProcessHtml().getListSeal(start, limit);
+		DetailPage detailPage = null;
+		while(seals != null){
+			
+			for (SealEntity seal : seals) {
+				detailPage = new DetailPage();
+				String content = stm.getDownHtml().ajkDownSealPage(seal.getHerf());
+				detailPage.setContent(content);
+				detailPage.setFatherid(seal.getId());
+				stm.getStoreService().storeDetailPge(detailPage);
+				System.out.println();
+			}
+			i++;
+			start = limit * i;
+			seals = stm.getProcessHtml().getListSeal(start, limit);
+		}
+		System.out.println("转换开始："+DateFormatUtils.format(date, pattern));
+		System.out.println("转换结束."+DateFormatUtils.format(new Date(), pattern));
 	}
 	
 	
+	/**
+	 * 解析列表界面，并保存
+	 * @param stm
+	 */
 	public static void saveSeal(StartMain stm) {
 		String pattern = "yyyy-MM-dd HH:mm:ss";
 		Date date = new Date();
