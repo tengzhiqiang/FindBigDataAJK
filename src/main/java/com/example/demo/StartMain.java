@@ -1,5 +1,8 @@
 package com.example.demo;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
@@ -24,7 +27,7 @@ public class StartMain {
 	public static String modelUrl ="https://ks.anjuke.com/sale/o5-p昆山/#filtersort";
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		StartMain stm = new StartMain();
 		stm.setDownHtml(new AJKDownImplServince());
 		stm.setProcessHtml(new AJKProcessService());
@@ -34,7 +37,7 @@ public class StartMain {
 		getDetailPage(stm);
 	}
 	
-	public static void getDetailPage(StartMain stm) {
+	public static void getDetailPage(StartMain stm) throws IOException {
 		String pattern = "yyyy-MM-dd HH:mm:ss";
 		Date date = new Date();
 		
@@ -43,13 +46,43 @@ public class StartMain {
 		DetailPage detailPage = null;
 		while(seals != null){
 			
+//			for (SealEntity seal : seals) {
+//				detailPage = new DetailPage();
+//				String content = stm.getDownHtml().ajkDownSealPage(seal.getHerf());
+//				detailPage.setContent(content);
+//				detailPage.setFatherid(seal.getId());
+//				stm.getStoreService().storeDetailPge(detailPage);
+//				try {
+//					Thread.sleep(1000*4);
+//				} catch (InterruptedException e) {
+//					e.printStackTrace();
+//				}
+//			}
+//			try {
+//				Thread.sleep(1000*10);
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
 			for (SealEntity seal : seals) {
 				detailPage = new DetailPage();
 				String content = stm.getDownHtml().ajkDownSealPage(seal.getHerf());
-				detailPage.setContent(content);
+				String pathString = seal.getId()+"";
+				if (content != null) {
+					pathString = stm.creatFile("D:\\2018\\", seal.getId(), content);
+				}
 				detailPage.setFatherid(seal.getId());
+				detailPage.setContent(pathString);
 				stm.getStoreService().storeDetailPge(detailPage);
-				System.out.println();
+				try {
+					Thread.sleep(1000*6);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+			try {
+				Thread.sleep(1000*30);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
 			i++;
 			start = limit * i;
@@ -57,6 +90,23 @@ public class StartMain {
 		}
 		System.out.println("转换开始："+DateFormatUtils.format(date, pattern));
 		System.out.println("转换结束."+DateFormatUtils.format(new Date(), pattern));
+	}
+	
+	public String creatFile(String path, long fatherid, String content)
+			throws IOException {
+		FileWriter fw = null;
+		
+		String name = "sealPage_" + fatherid + ".txt";
+		File file = new File(path + name);
+		file.delete();
+		file.createNewFile();
+		
+        fw = new FileWriter(file);
+        
+        fw.write(content);
+        fw.flush();
+        fw.close();
+		return file.getName();
 	}
 	
 	

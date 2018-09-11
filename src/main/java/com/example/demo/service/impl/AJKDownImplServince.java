@@ -22,7 +22,7 @@ public class AJKDownImplServince implements IDownHtml {
 		
 		return httpUtil(url);
 	}
-
+	
 	@Override
 	public String ajkDownSealPage(String url) {
 		String content = httpUtil(url);
