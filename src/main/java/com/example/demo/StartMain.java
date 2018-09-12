@@ -17,6 +17,9 @@ import com.example.demo.service.IStoreService;
 import com.example.demo.service.impl.AJKDownImplServince;
 import com.example.demo.service.impl.AJKProcessService;
 import com.example.demo.service.impl.StoreService;
+import com.example.demo.util.AgentVo;
+import com.example.demo.util.GetXiciIpAddress;
+import com.example.demo.util.HttpContent;
 
 public class StartMain {
 
@@ -44,6 +47,9 @@ public class StartMain {
 		int start=0,limit =50,i=0;
 		List<SealEntity> seals = stm.getProcessHtml().getListSeal(start, limit);
 		DetailPage detailPage = null;
+		
+		List<AgentVo> agents = GetXiciIpAddress.getListAgents();
+		AgentVo agentVo = null;
 		while(seals != null){
 			
 //			for (SealEntity seal : seals) {
@@ -63,7 +69,11 @@ public class StartMain {
 //			} catch (InterruptedException e) {
 //				e.printStackTrace();
 //			}
+			
+			
 			for (SealEntity seal : seals) {
+				agentVo = GetXiciIpAddress.getRandomAgent(agents);
+				HttpContent.httpAgent(agentVo);
 				detailPage = new DetailPage();
 				String content = stm.getDownHtml().ajkDownSealPage(seal.getHerf());
 				String pathString = seal.getId()+"";
@@ -73,14 +83,10 @@ public class StartMain {
 				detailPage.setFatherid(seal.getId());
 				detailPage.setContent(pathString);
 				stm.getStoreService().storeDetailPge(detailPage);
-				try {
-					Thread.sleep(1000*6);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
 			}
 			try {
-				Thread.sleep(1000*30);
+				System.out.println("休息10s**********");
+				Thread.sleep(1000*10);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -92,20 +98,28 @@ public class StartMain {
 		System.out.println("转换结束."+DateFormatUtils.format(new Date(), pattern));
 	}
 	
-	public String creatFile(String path, long fatherid, String content)
-			throws IOException {
+	public String creatFile(String path, long fatherid, String content){
 		FileWriter fw = null;
 		
 		String name = "sealPage_" + fatherid + ".txt";
 		File file = new File(path + name);
 		file.delete();
-		file.createNewFile();
+		try {
+			file.createNewFile();
+			fw = new FileWriter(file);
+			
+			fw.write(content);
+			fw.flush();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally{
+			try {
+				fw.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
 		
-        fw = new FileWriter(file);
-        
-        fw.write(content);
-        fw.flush();
-        fw.close();
 		return file.getName();
 	}
 	

@@ -11,9 +11,8 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 public class HttpContent {
-
 	
-	public static String  httpUtil(String url) {
+	public static String httpUtil(String url) {
 		HttpClientBuilder builder = HttpClients.custom();
 		CloseableHttpClient client = builder.build();
 		
@@ -31,4 +30,13 @@ public class HttpContent {
 		return content;
 	}
 	
+	
+	public static void httpAgent(AgentVo agentVo) {
+		System.setProperty("http.maxRedirects", "50");  
+        System.getProperties().setProperty("proxySet", "true");  
+        // 如果不设置，只要代理IP和代理端口正确,此项不设置也可以  
+        System.getProperties().setProperty("http.proxyHost", agentVo.getIp());  
+        System.getProperties().setProperty("http.proxyPort", agentVo.getPort());
+	}
+
 }
