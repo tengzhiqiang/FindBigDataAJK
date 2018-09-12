@@ -1,0 +1,873 @@
+<div id="content"> 
+ <div class="p_1180 p_crumbs"> 
+  <a href="https://ks.anjuke.com">昆山房产网</a> &gt; 
+  <a href="https://ks.anjuke.com/sale/">昆山二手房</a> &gt; 
+  <a href="https://ks.anjuke.com/sale/yushana/">玉山二手房</a> &gt; 
+  <a href="https://ks.anjuke.com/sale/chengnankunshan/">城南二手房</a> &gt; 
+  <a href="https://ks.anjuke.com/community/view/309840">衡山城</a> 
+ </div> 
+ <div class="topBar"> 
+  <em class="houseTitle">低于市场价15万，城南双铁之间，精装两房，房东换房急售</em> 
+  <p class="brokerInfo" id="brokerInfoV2" data-hasphone="0"> <i class="iconfont"></i> <span class="mobile"> 点击查看电话 </span> </p> 
+  <p class="houseInfo"> 2室2厅1卫， 88m²， 153万</p> 
+ </div> 
+ <div class="clearfix title-guarantee"> 
+  <h3 class="long-title"> 低于市场价15万，城南双铁之间，精装两房，房东换房急售 </h3> 
+ </div> 
+ <div class="wrapper"> 
+  <!--页面左侧--> 
+  <div class="wrapper-lf clearfix"> 
+   <div class="basic-info clearfix"> 
+    <span class="light info-tag"><em>153</em>万</span> 
+    <span class="info-tag"><em>2</em>室<em>2</em>厅</span> 
+    <span class="info-tag"><em>88</em>平方米</span> 
+    <!-- 这里锚点定位的代码在monthpay2组件里 --> 
+    <span class="info-tag no-border tag-cal"><i class="iconfont viewpage-calculator"></i>房贷计算</span> 
+    <div class="moreFunc"> 
+     <a rel="nofollow" href="https://www.anjuke.com/mobile?pm=b1028&amp;from=esf_page" class="moreFunc-entrance" id="js_report" target="_blank" data-soj="esf_page"><i class="iconfont"></i>下载app举报 </a>&nbsp;|&nbsp;
+     <a href="https://kfzx.anjuke.com/faqDetail/queryDetail?faqId=123&amp;faqTypeId=4" class="moreFunc-entrance" target="_blank">安选假赔百元细则</a> 
+    </div> 
+   </div> 
+   <!--轮播组件--> 
+   <div class="switch_warpper"> 
+    <div class="switch_with_map"> 
+     <div class="inner_switcher" id="inner_switcher"> 
+      <div class="switch_mask switch_left_mask" id="switch_left_mask" data-track="pc_fydy_switch_qh"> 
+       <i class="switch_left_btn switch_btn iconfont" id="switch_left_btn"></i> 
+       <span id="prev-title">室内图片</span> 
+      </div> 
+      <div class="switch_mask switch_right_mask" id="switch_right_mask" data-track="pc_fydy_switch_qh"> 
+       <i class="switch_right_btn switch_btn iconfont" id="switch_right_btn"></i> 
+       <span id="next-title">室内图片</span> 
+      </div> 
+      <div class="switch_wrap" id="switch_wrap"> 
+       <div class="switch_list zhankeng_first" id="zhankeng_first"> 
+        <div class="img_wrap zhankeng_img1"></div> 
+        <div class="img_wrap zhankeng_img2"></div> 
+       </div> 
+       <!--室内图--> 
+       <div class="switch_list" id="room_pic_wrap"> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/243924-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/7aa70c365899a8290f5e07edaa21e914-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/1b35b5-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/b393106a1fbb6e1afe9cd54e2c01a583-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/c73757-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/60555d99123142779d6b14439598127e-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/509d59-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/8787b7df2f2bbe499757d660d2af2e2e-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/e93a48-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/b34a9ec78ce27132b7fa0cbeba2789d2-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/e55e76-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/66a6a18f62b6f294268bb07dd40d591a-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/941979-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/a639e96d704c82225f397cdee0b34b5e-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/b9554e-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/52ac9cffdf5ec3a9d8a43ce9800c97c0-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+       </div> 
+       <!--户型图--> 
+       <div class="switch_list" id="hx_pic_wrap"> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/anjuke/c9527c-%E5%92%8C%E7%BE%8E%E6%88%BF%E4%BA%A7/539778b1d8df091cc68a1a6b39b9715a-599x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+       </div> 
+       <!--环境图--> 
+       <div class="switch_list" id="surround_pic_wrap"> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/297bc76e201c2a811d1015b47e134105/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/476e8ea36969d17624a2e7037c3a3ae4/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/4bc291d735402849a8fd5ac8a8cb23f7/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/d9ee7efa4d5c095a296c78b338ef6e5b/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/6bf5348db45ec580df84a50de9c05b9c/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/9e4942ed20ce7a72262e65be24236101/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/0b5256cd2763fe5d043a90b6a4c93dc9/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/50233b9677eba4db83b0b1d7ee03cb06/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/566551ec6d73f03cac267c4545a0526c/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+        <div class="img_wrap"> 
+         <img data-src="https://pic1.ajkimg.com/display/hj/5bc27e5aca7bfcbad6770aaf5e95e618/600x450.jpg?t=1" src="https://pages.anjukestatic.com/usersite/site/img/global/defaultImg/big-load-img2.png" alt="" height="450"> 
+        </div> 
+       </div> 
+       <div class="switch_list zhankeng_last" id="zhankeng_last"> 
+        <div class="img_wrap zhankeng_img1"></div> 
+        <div class="img_wrap zhankeng_img2"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="switch_tab_wrap " id="switch_tab_wrap"> 
+     <a class="switch_tag switch_tag_now" href="javascript:;" data-track="pc_fydy_switch_snt" id="room_tab"> <i class="switch-icon iconfont switch-room-icon"></i> <em class="title">室内图(8)</em> </a> 
+     <a class="switch_tag" href="javascript:;" data-track="pc_fydy_switch_hxt" id="hx_tab"> <i class="switch-icon iconfont switch-hx-icon"></i> <em class="title">户型图<span class="num">(1)</span></em> </a> 
+     <a class="switch_tag" href="javascript:;" data-track="pc_fydy_switch_hjt" id="surround_tab"> <i class="switch-icon iconfont switch-surd-icon"></i> <em class="title">环境图<span class="num">(10)</span></em> </a> 
+     <a class="switch_tag " href="javascript:;" data-track="pc_fydy_switch_dt" id="map_tab"> <i class="switch-icon iconfont"></i> <em class="title">周边地图</em> </a> 
+    </div> 
+   </div> 
+   <div class="houseInfoBox"> 
+    <h4 class="block-title houseInfo-title">房屋信息 <span class="anxian">安居客提示：非安选房源，在售状态请与经纪人确认</span> <span class="house-encode">房屋编码： 1405134086，发布时间：2018年09月08日</span></h4> 
+    <div class="block-wrap block-nocopy no-bd-top"> 
+     <div class="houseInfo-wrap"> 
+      <ul class="houseInfo-detail-list clearfix"> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         所属小区：
+        </div> 
+        <div class="houseInfo-content"> 
+         <a href="https://ks.anjuke.com/community/view/309840" target="_blank" _soj="propview">衡山城</a> 
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         房屋户型：
+        </div> 
+        <div class="houseInfo-content">
+          2室 2厅 1卫 
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         房屋单价：
+        </div> 
+        <div class="houseInfo-content">
+         17386 元/m²
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         所在位置：
+        </div> 
+        <div class="houseInfo-content"> 
+         <p class="loc-text"><a href="https://ks.anjuke.com/sale/yushana/" target="_blank" _soj="propview">玉山</a>－ <a href="https://ks.anjuke.com/sale/chengnankunshan/" target="_blank" _soj="propview">城南</a>－ 中华园路1518号</p> 
+         <i class="iconfont i-location"></i> 
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         建筑面积：
+        </div> 
+        <div class="houseInfo-content">
+         88平方米
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         参考首付：
+        </div> 
+        <div class="houseInfo-content">
+          45.90万 
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         建造年代：
+        </div> 
+        <div class="houseInfo-content">
+          2013年 
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         房屋朝向：
+        </div> 
+        <div class="houseInfo-content">
+         南北
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         参考月供：
+        </div> 
+        <div class="houseInfo-content"> 
+         <span id="reference_monthpay"></span> 
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         房屋类型：
+        </div> 
+        <div class="houseInfo-content">
+         普通住宅
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         所在楼层：
+        </div> 
+        <div class="houseInfo-content">
+         中层(共26层)
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         装修程度：
+        </div> 
+        <div class="houseInfo-content">
+         精装修
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         房本年限：
+        </div> 
+        <div class="houseInfo-content">
+         满二年
+        </div> </li> 
+       <li class="houseInfo-detail-item"> 
+        <div class="houseInfo-label text-overflow">
+         唯一住房：
+        </div> 
+        <div class="houseInfo-content">
+         是
+        </div> </li> 
+      </ul> 
+     </div> 
+     <!--tags--> 
+     <div class="houseInfo-desc"> 
+      <!-- 二手房信息 --> 
+      <div class="houseInfo-item"> 
+       <h5 class="houseInfo-item-title"><span class="iconfont"></span><span class="title-content">核心卖点</span></h5> 
+       <div class="houseInfo-item-desc js-house-explain"> 
+        <span style="font-size:14px;">，房子小区中间位置，精装自住房，两房朝南户型，。装修保养非常好，可以拎包入住</span> 
+       </div> 
+      </div> 
+      <!-- 二手房信息 --> 
+      <div class="houseInfo-item"> 
+       <h5 class="houseInfo-item-title"><span class="iconfont"></span><span class="title-content">业主心态</span></h5> 
+       <div class="houseInfo-item-desc">
+         房子在卖的很多，关键是要诚心出售，跳价反价只会浪费您的精力与时间，所有价格都是业主目前所报价位，客户若是与房子对上眼缘，我相信价格彼此都是还有商谈余地的。 
+       </div> 
+      </div> 
+      <!-- 二手房信息 --> 
+      <div class="houseInfo-item"> 
+       <h5 class="houseInfo-item-title"><span class="iconfont"></span><span class="title-content">小区配套</span></h5> 
+       <div class="houseInfo-item-desc">
+         1，全新小区，城南交通*方便小区，周边配套设施齐全，小区车位充足，环境非常好， 
+       </div> 
+      </div> 
+      <!-- 租房信息 --> 
+      <!-- 租房信息 --> 
+      <!-- 租房信息 --> 
+      <!-- 二手房信息 --> 
+      <div class="houseInfo-item"> 
+       <h5 class="houseInfo-item-title"><span class="iconfont"></span><span class="title-content">服务介绍</span></h5> 
+       <div class="houseInfo-item-tags clearfix"> 
+        <span class="tags-service tags-money">佣金最高≤0.5%</span> 
+        <span class="tags-service">有钥匙</span> 
+       </div> 
+       <div class="houseInfo-item-desc">
+         看房需要您提前电话，我们约好时间，就不会浪费您太多的时间。对房子简单明了的介绍，是我能给您的*印象，买房如穿衣，请告诉我您的尺寸，相信我的热情，我的专业，我对工作的认真，一定能给您在昆山找到一个合适的家， 
+       </div> 
+      </div> 
+      <!-- 二手房信息 --> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- 您可能感兴趣房源（原猜你喜欢） --> 
+   <div class="comm-intrest-house"> 
+    <div id="recommendNear" class="likebox" style=""> 
+    </div> 
+    <div class="rec-house-ul" id="recHouseInfo"> 
+     <!-- <div class="rec-house-li clearfix">
+      <div class="house-li-left">
+         <span class="w220"><label>月供：</label>15989元</span>
+         <span><label>单价：</label>39387元/㎡</span>
+         <span class="w220"><label>朝向：</label>南北</span>
+         <span><label>楼层：</label>5/6</span>
+         <span class="w220"><label>年代：</label>2007年</span>
+         <p>小区环境优雅，也是次新房，而且小区全部都是高层建筑，让您感觉不到压抑。房子在小区的中心位置，并且房型相当的正气，南北通透，全明，采光非常好,小区紧靠河边。 其他亮点； 此小区位于包头路北段...</p>
+      </div>
+      <div class="house-li-right">
+         <a class="rig-broker-pho" href="http://shanghai.anjuke.com/shop/view/1430505" target="_blank"><img width="90" height="120" src="http://b.pic1.ajkimg.com/display/anjuke/97604bc93b2eabcdcf71ec6572dbf8fc/600x796x0x1/100x133.jpg" title="我爱我家  倪伟伟"></a>
+         <div class="rig-broker-info">
+            <div class="broker-name">
+               <b>倪伟伟</b>
+               <i class="p_icon identity_verify" title="已进行身份验证"></i>
+                   <i class="p_icon company_verify" title="已进行公司验证"></i>
+                   <div class="broker-code">
+                       <a href="javascript:void(0)" id="wxCode" class="wxcode"></a>
+                      <div id="brokerErweima" class="broker-erweima">
+                          <div class="erweima-box">
+                              <img src="http://pic1.ajkimg.com/display/e/9bc8c247cd1ce30373df5a5cc04f743a/200x200c.jpg" width="80" height="80">
+                              <p>加经纪人微信</p>
+                              <i class="arrow"></i>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+            <div class="broker-ad">
+               志联地产 - 志联地产缤纷时代分行志联地产缤纷时代分行志联地产缤纷时代分行志联地产缤纷时代分行
+            </div>
+            <div class="broker-tel">
+               <i class="tel-ico"></i>132 1234 1234
+            </div>
+         </div>
+      </div>
+   </div> --> 
+    </div> 
+   </div> 
+   <!-- 小区概况 --> 
+   <div class="comm-commoninfo"> 
+    <h4 class="block-title"><a href="https://ks.anjuke.com/community/view/309840?from=propview" target="_blank" class="comm-jd-link2">小区详情&gt;</a>小区概况</h4> 
+    <div class="mapCon"> 
+     <div class="traffic_map_wrap" id="traffic_map_wrap"> 
+      <div class="scale_btn_wrap"> 
+       <a href="javascript:void(0);" class="zoom_btn" id="zoomout_btn">+</a> 
+       <a href="javascript:void(0);" class="zoom_btn minus-btn" id="zoomin_btn">-</a> 
+      </div> 
+      <div class="bmap_wrap"> 
+       <div class="bmap" id="bmap"></div> 
+       <div class="map_tag_wrap" id="map_tag_wrap"> 
+        <!-- map_action --> 
+        <a id="traffic" class="map_action selected" href="javascript:void(0);"> <i class="map_tag_ico traffic_icon"><i></i></i> <span>交通地段</span> </a> 
+        <a id="business" class="" href="javascript:void(0);"> <i class="map_tag_ico business_icon"><i></i></i> <span>餐饮购物</span> </a> 
+        <a id="school" class="" href="javascript:void(0);"> <i class="map_tag_ico school_icon"><i></i></i> <span>教育机构</span> </a> 
+        <a id="medical" class="" href="javascript:void(0);"> <i class="map_tag_ico medical_icon"><i></i></i> <span>医疗设施</span> </a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="cmmmap-info"> 
+     <i class="iconfont commap-info-logo"></i> 
+     <div class="commap-info-intro commap-info-fst"> 
+      <p class="cminfo-title">总面积</p> 
+      <p class="info-bd">249000m²</p> 
+     </div> 
+     <div class="commap-info-intro"> 
+      <p class="cminfo-title">总户数</p> 
+      <p class="info-bd"> 2400<span class="font-sm">户</span> </p> 
+     </div> 
+     <div class="commap-info-intro"> 
+      <p class="cminfo-title">容积率</p> 
+      <p class="info-bd">2.49</p> 
+     </div> 
+     <div class="commap-info-intro"> 
+      <p class="cminfo-title">停车位</p> 
+      <p class="info-bd"> 2400<span class="font-sm">个</span> </p> 
+     </div> 
+     <div class="commap-info-intro"> 
+      <p class="cminfo-title">绿化率</p> 
+      <p class="info-bd">42%</p> 
+     </div> 
+     <div class="commap-info-intro no-border-rg"> 
+      <p class="cminfo-title">物业费用</p> 
+      <p class="info-bd">1.40<span class="font-sm">元</span>/m²</p> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- 小区解读 --> 
+   <!-- 下面a标签中的链接需要填充 --> 
+   <div class="comm-jiedu" data-> 
+    <h4 class="block-title comm-jd-title"><a href="https://ks.anjuke.com/community/view/309840/jiedu/" target="_blank" class="comm-jd-link2" data-soj="pc_fydy_xqjd_more">更多解读&gt;</a>专家解读<a href="http://pages.anjuke.com/expert/newexpert.html" target="_blank" class="comm-jd-link1" data-soj="pc_fydy_xqjd_wrhcxzzl">如何出现在这<i class="iconfont"></i></a></h4> 
+    <ul class="experts-list"> 
+     <li data-id="28033" class="clearfix"> 
+      <div class="comment-info" onselectstart="return false"> 
+       <!-- <div class="info-head">
+                <p class="info-date">发布于</p>
+                <p class="info-like" title=""><i class="iconfont">&#xE086;</i><span>0</span>人觉得很赞</p>
+            </div> --> 
+       <dl class="info-character good-character"> 
+        <dt>
+         <span>特色</span>
+        </dt> 
+        <dd>
+         <label>【生活配套】</label>小区东南侧20米有生活超市，营业时间：上8点到晚10点，价格比大型超市便宜，适合采购日常生活用品
+        </dd> 
+        <dd>
+         <label>【附近学校】</label>小区300米昆山国际学校，幼儿园到高中一体化教育，学费3万一年，半封闭式学校！
+        </dd> 
+       </dl> 
+       <dl class="info-character bad-character"> 
+        <dt>
+         <span>不足</span>
+        </dt> 
+        <dd>
+         小区属于中高端住宅，较周边小区单价算偏高了
+        </dd> 
+       </dl> 
+       <!-- <p class="info-houselink"><a href="" target="_blank" _soj="community_expert">看看Ta在本小区的二手房 >  </a></p> --> 
+      </div> 
+      <div class="expert-info"> 
+       <a class="info-img clearfix" href="https://kunshankunlunfa.anjuke.com/gongsi-jjr-2585385/"> <img src="https://pic1.ajkimg.com/display/anjuke/615d66d1380407e14cd66cedfd6d9644/392x520x0x69/100x133.jpg"> </a> 
+       <p class="info-brokername">牛兵建</p> 
+      </div> </li> 
+    </ul> 
+    <a href="javascript:;" data-trace="{Exp_View_commExp:1}"></a> 
+   </div> 
+   <!-- 小区问答 --> 
+   <div class="comm-qa"> 
+    <h4 class="block-title comm-jd-title block-title-bd-bto">小区问答<a href="http://pages.anjuke.com/expert/ask.html" target="_blank" class="comm-jd-link1" data-soj="pc_fydy_xqwd_wrhcxzzl">如何出现在这<i class="iconfont"></i></a><a href="https://ks.anjuke.com/community/qa/309840" target="_blank" class="comm-jd-link2" data-soj="pc_fydy_xqwd_more">更多回答&gt;</a></h4> 
+    <ul class="comm-qa-list"> 
+     <li> <a href="https://www.anjuke.com/qa/v14191752" class="comm-qa-item clearfix" data-soj="pc_fydy_xqwd_wt" onselectstart="return false" target="_blank"> 
+       <dl class="qa-item-q clearfix"> 
+        <dt>
+         <span>提问</span>
+        </dt> 
+        <dd class="qa-item-txt">
+         【衡山城国际花园】 双铁之间，火车噪音有多大？
+        </dd> 
+        <dd class="qa-time">
+         2018-02-28
+        </dd> 
+       </dl> 
+       <dl class="qa-item-a clearfix"> 
+        <!-- <dt><span>回答</span></dt> --> 
+        <dd>
+         <span class="qa-brokername" data-url="https://tianruidichan2.anjuke.com/gongsi-jjr-4655704/"> 闻肖风：</span>基本上没有噪音的，有是高铁那边有噪音，到衡山城几乎就很小了
+        </dd> 
+        <dd class="qa-item-linkto">
+         我补充&gt;
+        </dd> 
+       </dl> </a> </li> 
+     <li> <a href="https://www.anjuke.com/qa/c14310275" class="comm-qa-item clearfix" data-soj="pc_fydy_xqwd_wt" onselectstart="return false" target="_blank"> 
+       <dl class="qa-item-q clearfix"> 
+        <dt>
+         <span>提问</span>
+        </dt> 
+        <dd class="qa-item-txt">
+         【衡山城国际花园】附近的发展，政府有什么重大的规划么？
+        </dd> 
+        <dd class="qa-time">
+         2018-03-06
+        </dd> 
+       </dl> 
+       <dl class="qa-item-a clearfix"> 
+        <!-- <dt><span>回答</span></dt> --> 
+        <dd>
+         <span class="qa-brokername" data-url="https://shandabudongcha.anjuke.com/gongsi-jjr-1847974/"> 周雅维：</span>南面有昆山地标480米高楼，背面是昆城广场
+        </dd> 
+        <dd class="qa-item-linkto">
+         我补充&gt;
+        </dd> 
+       </dl> </a> </li> 
+     <li> <a href="https://www.anjuke.com/qa/c15576773" class="comm-qa-item clearfix" data-soj="pc_fydy_xqwd_wt" onselectstart="return false" target="_blank"> 
+       <dl class="qa-item-q clearfix"> 
+        <dt>
+         <span>提问</span>
+        </dt> 
+        <dd class="qa-item-txt">
+         【衡山城】单身非本市户口可以可以买这里的房子吗?
+        </dd> 
+        <dd class="qa-time">
+         2018-04-26
+        </dd> 
+       </dl> 
+       <dl class="qa-item-a clearfix"> 
+        <!-- <dt><span>回答</span></dt> --> 
+        <dd>
+         <span class="qa-brokername" data-url="https://libaijiafangchan.anjuke.com/gongsi-jjr-5424234/"> 孙好理：</span>社保满一年是可以的
+        </dd> 
+        <dd class="qa-item-linkto">
+         我补充&gt;
+        </dd> 
+       </dl> </a> </li> 
+     <li> <a href="https://www.anjuke.com/qa/v16871508" class="comm-qa-item clearfix" data-soj="pc_fydy_xqwd_wt" onselectstart="return false" target="_blank"> 
+       <dl class="qa-item-q clearfix"> 
+        <dt>
+         <span>提问</span>
+        </dt> 
+        <dd class="qa-item-txt">
+         【衡山城】 学期哪里，从幼儿园到中学
+        </dd> 
+        <dd class="qa-time">
+         2018-06-13
+        </dd> 
+       </dl> 
+       <dl class="qa-item-a clearfix"> 
+        <!-- <dt><span>回答</span></dt> --> 
+        <dd>
+         <span class="qa-brokername" data-url=""> 嗨翻全场：</span>玉山中学？扯你个蛋
+        </dd> 
+        <dd class="qa-item-linkto">
+         我补充&gt;
+        </dd> 
+       </dl> </a> </li> 
+     <li> <a href="https://www.anjuke.com/qa/v17278220" class="comm-qa-item clearfix" data-soj="pc_fydy_xqwd_wt" onselectstart="return false" target="_blank"> 
+       <dl class="qa-item-q clearfix"> 
+        <dt>
+         <span>提问</span>
+        </dt> 
+        <dd class="qa-item-txt">
+         【衡山城】外地户籍购买有限制吗，需要积分、社保、或其他？按揭贷款首付3成可以吗？
+        </dd> 
+        <dd class="qa-time">
+         2018-06-27
+        </dd> 
+       </dl> 
+       <dl class="qa-item-a clearfix"> 
+        <!-- <dt><span>回答</span></dt> --> 
+        <dd>
+         <span class="qa-brokername" data-url="https://dongtingfangcha.anjuke.com/gongsi-jjr-5504657/"> 刘祥：</span>两年内有一年社保，5年内没有贷款记录，有的话可以告诉我，我来帮你弄
+        </dd> 
+        <dd class="qa-item-linkto">
+         我补充&gt;
+        </dd> 
+       </dl> </a> </li> 
+     <li> <a href="https://www.anjuke.com/qa/c17010480" class="comm-qa-item clearfix" data-soj="pc_fydy_xqwd_wt" onselectstart="return false" target="_blank"> 
+       <dl class="qa-item-q clearfix"> 
+        <dt>
+         <span>提问</span>
+        </dt> 
+        <dd class="qa-item-txt">
+         【衡山城】小区的治安是谁负责的？
+        </dd> 
+        <dd class="qa-time">
+         2018-06-17
+        </dd> 
+       </dl> 
+       <dl class="qa-item-a clearfix"> 
+        <!-- <dt><span>回答</span></dt> --> 
+        <dd>
+         <span class="qa-brokername" data-url="https://kunshankunlunfa.anjuke.com/gongsi-jjr-4191273/"> 葛志强：</span>物业公司的保安处
+        </dd> 
+        <dd class="qa-item-linkto">
+         我补充&gt;
+        </dd> 
+       </dl> </a> </li> 
+    </ul> 
+    <div class="comm-btn-group clearfix"> 
+     <a href="https://ks.anjuke.com/ask/publish/?from_type=3&amp;type_id=309840" class="comm-qa-askbtn" target="_blank" data-soj="pc_fydy_xqwd_wytw">我要提问</a> 
+     <a href="https://ks.anjuke.com/ask/all/" class="comm-qa-ansbtn" target="_blank" data-soj="pc_fydy_xqwd_wyhd">我要回答</a> 
+    </div> 
+    <a href="javascript:;" data-trace="{Exp_View_commQa:1}"></a> 
+   </div> 
+   <!-- 猜你喜欢（原同月供优质房） --> 
+   <div id="areaPriceRecommendProp" class="likebox" style=""> 
+   </div> 
+   <div class="trendbox" id="price_trend"> 
+    <div class="block-title"> 
+     <h4>房价走势</h4> 
+    </div> 
+    <div class="price-trend-mod"> 
+     <div class="header"> 
+      <div class="item first-item j-house-item"> 
+       <div class="t-content"> 
+        <span class="label"><i class="iconfont icon-house"></i>本房源</span> 
+        <div id="thishousedesc" class="price-desc">
+         ￥
+         <span class="avg">17386</span>元/平米
+         <span class="price-stat">比本小区<span class="status">↑</span><span class="percent"></span></span>
+        </div> 
+        <p id="thishousenull" class="nodata text-mute">暂无数据</p> 
+       </div> 
+      </div> 
+      <div class="item j-community-item"> 
+       <i class="icon-vs"></i> 
+       <div class="t-content"> 
+        <div class="label">
+         <i class="iconfont icon-community"></i> 
+         <a title="衡山城" href="https://ks.anjuke.com/community/trends/309840" data-soj="sale_prop_view_fjzs">衡山城</a> 
+        </div> 
+        <div id="commhousedesc" class="price-desc">
+         ￥
+         <span class="avg"></span>元/平米
+         <span class="price-stat">环比<span class="month">2</span>月<span class="status">↑</span><span class="percent">22%</span></span>
+        </div> 
+        <p id="commhousenull" class="nodata text-mute">暂无数据</p> 
+       </div> 
+      </div> 
+      <div class="item j-area-item"> 
+       <div class="t-content"> 
+        <div class="label">
+         <i class="iconfont icon-area"></i> 
+         <a title="城南" href="https://ks.anjuke.com/market/chengnankunshan/"> 城南</a> 
+        </div> 
+        <div id="areahousedesc" class="price-desc">
+         ￥
+         <span class="avg"></span>元/平米
+         <span class="price-stat">环比<span class="month">2</span>月<span class="status">↑</span><span class="percent"></span></span>
+        </div> 
+        <p id="areahousenull" class="nodata text-mute">暂无数据</p> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+     <!-- comminfo 开始 --> 
+     <div class="b-content"> 
+      <div class="chart"> 
+       <div id="linechart" class="linechart"> 
+        <div class="nones" id="chartnoData">
+         暂无历史数据
+        </div> 
+        <div id="chartOverLay" class="chartOverLay chartRight"> 
+         <h3>2013年6月</h3> 
+         <table cellpadding="0" cellspacing="0"> 
+          <tbody> 
+           <tr> 
+            <td class="color line2"></td> 
+            <td class="names">衡山城</td> 
+            <td class="pirces"><span>27,230</span>元</td> 
+           </tr> 
+           <tr> 
+            <td class="color line3"></td> 
+            <td class="names">城南</td> 
+            <td class="pirces"><span>27,230</span>元</td> 
+           </tr> 
+          </tbody> 
+         </table> 
+        </div> 
+       </div> 
+      </div> 
+      <a class="chart-desc text-mute" data-trace="{Exp_View_priceTrend:1}" style="display: block;">注：本站“均价”数据统计来自经纪人发布的信息</a> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- 投资潜力房 --> 
+   <div id="potentialRecommendProp" class="likebox" style=""> 
+   </div> 
+   <div class="monthbox"> 
+    <h4 class="block-title">房贷计算</h4> 
+    <div class="block-wrap"> 
+     <div class="monthpay"> 
+      <div class="litem"> 
+       <p class="desc">默认为参考首付和参考贷款，您可以更换下面选项获得自己的专属贷款详情</p> 
+       <div class="p_phrase" style="z-index:9"> 
+        <div class="phrase_title">
+         贷款类别:
+        </div> 
+        <div class="phrase_cont"> 
+         <div class="selectstyle" id="j-loanclass" data-track="pc_fydy_ckyg"> 
+          <select id="paies" class="ele-hide"> <option value="1" selected>商业贷款</option> <option value="2">公积金贷款</option> </select> 
+         </div> 
+         <i class="iconfont icon-qs icon-dis icon-paies"></i> 
+        </div> 
+        <div class="p_arowCon commerce"> 
+         <p>商业贷款是以银行信贷资金为来源向购房者个人发放的贷款。</p> 
+         <!--箭头在下面p_arw_b  箭头在上面p_arw_t--> 
+         <em class="p_arw" style="left:15px;bottom:-10px;"></em> 
+         <!--em class="p_arw p_arw_t" style="left:15px;top:-12px;"></em--> 
+         <em class="p_arw-up" style="left:16px;bottom:-9px;"></em> 
+        </div> 
+        <div class="p_arowCon fund"> 
+         <p>公积金贷款是指缴存住房公积金的职工享受的贷款，国家规定，凡是缴存公积金的职工均可按公积金贷款的相关规定申请公积金贷款。</p> 
+         <!--箭头在下面p_arw_b  箭头在上面p_arw_t--> 
+         <em class="p_arw" style="left:15px;bottom:-10px;"></em> 
+         <!--em class="p_arw p_arw_t" style="left:15px;top:-12px;"></em--> 
+         <em class="p_arw-up" style="left:16px;bottom:-9px"></em> 
+        </div> 
+       </div> 
+       <div class="p_phrase" style="z-index:8"> 
+        <div class="phrase_title">
+         按揭成数:
+        </div> 
+        <div class="phrase_cont"> 
+         <div class="selectstyle" id="j-loanpercent" data-track="pc_fydy_ckyg"> 
+          <select id="pointes" class="ele-hide"> <option value="9">9成</option> <option value="8">8成</option> <option value="7">7成</option> <option value="6" selected>6成</option> <option value="5">5成</option> <option value="4">4成</option> <option value="3">3成</option> <option value="2">2成</option> <option value="1">1成</option> </select> 
+         </div> 
+         <i class="iconfont icon-qs icon-dis icon-ratio"></i> 
+        </div> 
+        <div class="p_arowCon ratio"> 
+         <p>是指所贷款的额度总额占房款总额的比例。按揭成数=贷款的额度/房款总额</p> 
+         <!--箭头在下面p_arw_b  箭头在上面p_arw_t--> 
+         <em class="p_arw p_arw_b" style="left:15px;bottom:-11px;"></em> 
+         <!--em class="p_arw p_arw_t" style="left:15px;top:-12px;"></em--> 
+         <em class="p_arw-up" style="left:16px;bottom:-9px"></em> 
+        </div> 
+       </div> 
+       <div class="p_phrase" style="z-index:7"> 
+        <div class="phrase_title">
+         贷款时间:
+        </div> 
+        <div class="phrase_cont"> 
+         <div class="selectstyle" id="j-loanyears" data-track="pc_fydy_ckyg"> 
+          <select id="yeares" class="ele-hide"> <option value="0.5">6个月</option> <option value="1">1年</option> <option value="2">2年</option> <option value="3">3年</option> <option value="4">4年</option> <option value="5">5年</option> <option value="6">6年</option> <option value="7">7年</option> <option value="8">8年</option> <option value="9">9年</option> <option value="10">10年</option> <option value="11">11年</option> <option value="12">12年</option> <option value="13">13年</option> <option value="14">14年</option> <option value="15">15年</option> <option value="16">16年</option> <option value="17">17年</option> <option value="18">18年</option> <option value="19">19年</option> <option value="20" selected>20年</option> <option value="21">21年</option> <option value="22">22年</option> <option value="23">23年</option> <option value="24">24年</option> <option value="25">25年</option> <option value="26">26年</option> <option value="27">27年</option> <option value="28">28年</option> <option value="29">29年</option> <option value="30">30年</option> </select> 
+         </div> 
+        </div> 
+       </div> 
+       <div> 
+        <div class="desc-wrap"> 
+         <p class="desc-bottom text-mute">备注：本房为满二唯一，免收营业税（如非普通住宅，需收取营业税）和个人所得税。税费由营业税、个人所得税、契税等构成。具体税费因房源不同有差异，详情请咨询经纪人。</p> 
+         <!--<p onmouseover="J.s('.fivecontent').eq(0).setStyle({display:'block'});" onmouseout="J.s('.fivecontent').eq(0).setStyle({display:'none'});";>备注：本房为满五唯一，免收营业税（如非普通住宅，需收取营业税）和个人所得税。税费由营业税、个人所得税、契税等构成。具体税费因房源不同有差异，详情请咨询经纪人。
+                </p>
+                <div class="chartoverlays fivecontent text-mute" style="left:700px;top:54px;_left:850px;" >
+                    本房为满五唯一，免收营业税（如非普通住宅，需收取营
+                    业税）和个人所得税。税费由营业税、个人所得税、契税
+                    等构成。具体税费因房源不同有差异，详情请咨询经纪人
+                    <i></i>
+                </div>--> 
+        </div> 
+        <a target="_blank" class="btncounter" href="https://www.anjuke.com/calculator/loan" rel="nofollow">计算您的贷款详情</a> 
+       </div> 
+      </div> 
+      <div class="ritem"> 
+       <div class=""> 
+        <div class="piechart" id="piechart"> 
+         <!-- SVG Pie Chart --> 
+        </div> 
+        <div class="legend-container"> 
+         <!-- <h3 style="display:none;">
+                    <ins>月均还款：</ins>
+                       <span class="orange" id="yearpays">0000</span>元/月<strong>
+                   (<span id="yearcounts" style="font-size: 15px; color: #999">20</span>年)</strong>
+               </h3> --> 
+         <ul> 
+          <li id="firstpay"><i class="iconfont legend firstpay"></i>参考首付：<span>45.90</span>万&nbsp;(&nbsp;<span>0成</span>&nbsp;)</li> 
+          <li id="repayed"><i class="iconfont legend repayed"></i>贷款金额：<span>107.10</span>万&nbsp;(&nbsp;<span>成</span>&nbsp;)</li> 
+          <li id="payedpoint"><i class="iconfont legend payedpoint"></i>支付利息：<span></span>万&nbsp;(&nbsp;利率<span></span>%&nbsp;)</li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+    var commInform = {
+        Allprice: "153" || 0,
+        firsetPrice: "45.90" || 0
+    };
+    var cal_grate = [0.0275,0.0325];
+    var cal_brate = [0.0435,0.0435,0.0475,0.0475,0.049];
+</script> 
+     <a href="javascript:;" data-trace="{Exp_View_loanCal:1}"></a> 
+    </div> 
+   </div> 
+   <!-- 看了又看（原同地段优选） --> 
+   <div id="blockRecommendProp" class="likebox" style=""> 
+   </div> 
+  </div> 
+  <div class="tel-verify" id="tel-verify"> 
+   <h3> 输入验证码 <i class="iconfont tel-verify-close" id="verify-close"></i> </h3> 
+   <div class="tel-verify-wrap"> 
+    <div class="verify-error" id="verify-error"> 
+    </div> 
+    <div class="clearfix"> 
+     <div class="tel-verify-info"> 
+      <i class="iconfont verify-icon-img"></i> 
+      <i class="verify-line"></i> 
+      <input id="verify-captcha" class="verify-captcha" type="text" name="captcha" maxlength="6" placeholder="请输入图片验证码"> 
+     </div> 
+     <img id="verify-captcha-code" class="verify-captcha-code" src="/captcha" alt="图片验证码"> 
+     <i id="verify-icon-refresh" class="iconfont verify-icon-refresh"></i> 
+    </div> 
+    <a id="verify-submit" href="javascript:;" class="verify-submit">确定提交</a> 
+   </div> 
+  </div> 
+  <a href="javascript:;" data-trace="{Exp_View_footerSeo:1}"></a> 
+  <div class="wrapper-rg clearfix"> 
+   <!-- <p class="broker-title"><i class="iconfont">&#xE019;</i><span>经纪人</span></p> --> 
+   <div class="block-wrap block-nocopy brokerInfo_mod block-wrap-border"> 
+    <!--经纪人信息--> 
+    <div class="broker-wrap" id="broker-wrap2"> 
+     <div class="img-box system-link-track"> 
+      <a href="https://hemeifangchan7.anjuke.com/gongsi-jjr-6196711/" _soj="esf_page" target="_blank"> <img class="brokercard-img" src="https://pic1.ajkimg.com/display/1044ae6c8a36d2c4f8e912e0d973cbb1/100x133.jpg" title="和美房产李洪云"> </a> 
+      <div class="broker-tagdiv clearfix"> 
+       <div class="brokercard-name">
+        李洪云 
+       </div> 
+       <a href="https://hemeifangchan7.anjuke.com/gongsi-jjr-6196711/" target="_blank" _soj="esf_page" class="broker-morehouse">查看TA的店铺</a> 
+      </div> 
+     </div> 
+     <div class="broker-level clearfix"> 
+      <span class="stars-title">等级：</span> 
+      <div class="stars-wrap-bk" style="width:54px"> 
+       <p class="stars-bg" style="width:54px"><i class="iconfont"></i><i class="iconfont"></i><i class="iconfont"></i><i class="iconfont"></i><i class="iconfont"></i></p> 
+       <p class="stars-solid" style="width:54px"><i class="iconfont"></i><i class="iconfont"></i><i class="iconfont"></i><i class="iconfont"></i><i class="iconfont"></i></p> 
+      </div> 
+      <!-- 如果持平显示与同城平均水平持平 --> 
+      <div class="tip-box"> 
+       <!-- prd上规定如果等于平均水平展示‘与同城平均水平持平’ --> 
+       <p>打败了16.2%的同城经纪人</p> 
+       <i class="icon-arrow"><span></span></i> 
+      </div> 
+     </div> 
+     <div class="brokercard-scorewrap clearfix"> 
+      <span class="brokercard-scoretitle">得分：</span> 
+      <div class="brokercard-scoredetail"> 
+       <div class="brokercard-sd-cont clearfix"> 
+        <span class="score-down clearfix no-pd-left" style="height: 30px;"> <em class="score-num" style="margin-top: -7px;">0</em><br><em>房源</em> </span> 
+        <span class="score-up clearfix" style="height: 30px;"> <em class="score-num" style="margin-top: -7px;">5.0</em><br><em>服务</em> </span> 
+        <span class="score-up clearfix no-bd-rg" style="height: 30px;"> <em class="score-num" style="margin-top: -7px;">5.0</em><br><em>评价</em> </span> 
+       </div> 
+       <div class="brokercard-sd-tip" style="bottom:47px;"> 
+        <i class="arr-down"><i></i></i> 
+        <div class="score-down">
+         <span class="mg-r">房源真实：<em class="score-num">0</em><i class="score-tag"></i></span>
+         <span>打败了0%的同城经纪人</span> 
+        </div> 
+        <div class="score-up">
+         <span class="mg-r">服务效率：<em class="score-num">5.0</em><i class="score-tag"></i></span>
+         <span>打败了46.6%的同城经纪人</span> 
+        </div> 
+        <div class="score-up">
+         <span class="mg-r">用户评价：<em class="score-num">5.0</em><i class="score-tag"></i></span>
+         <span>打败了0%的同城经纪人</span> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="brokercard-medal">
+       勋章： 
+      <div class="jjr-medal">
+       <i class="iconfont jjr-icn-ans" title="在线咨询回复率高，回复速度快"></i>
+      </div> 
+     </div> 
+     <div class="broker-background"> 
+      <div class="broker-company"> 
+       <p>公司：<a href="https://hemeifangchan7.anjuke.com/" target="_blank" class="text-overflow half-width">和美房产</a> </p> 
+       <p>门店：<a href="https://hemeifangchan7.anjuke.com/gongsi-md-278116/" target="_blank" class="text-overflow">和美房产吉田广场店...</a></p> 
+      </div> 
+     </div> 
+     <div class="phone-click" data-hasphone="0"> 
+      <i class="iconfont phone"></i> 
+      <span>点击查看电话</span> 
+     </div> 
+    </div> 
+    <div class="overlayback"> 
+     <div class="warn-win"> 
+      <div class="warnwin-title">
+       <span>提示</span>
+       <i class="iconfont" id="closewin"></i>
+      </div> 
+      <div class="warnwin-body">
+       您是经纪人账号，请下载
+       <a href="//pages.anjuke.com/app/anjuke/broker_app_v6.html" data-soj="esfwl">移动经纪人</a>随时微聊
+      </div> 
+     </div> 
+    </div> 
+    <!-- 如果有扫一扫 --> 
+    <div class="chat-card"> 
+     <p class="chat-word">微信扫一扫，在线聊</p> 
+     <img src="" alt="" class="chat-img" id="chatImg"> 
+     <p class="chat-intro">在线沟通更高效</p> 
+    </div> 
+    <!--主推/相似小区推荐房源--> 
+    <div id="propSimilarBox" class="recbox fix_con" style=""> 
+    </div> 
+    <script>
+	var bkname_only = "李洪云";
+    var guid = "E39416FE-C7E9-92F2-4578-399BAD93ABB0"
+</script> 
+    <div class="ifx-xinfang-wrap"> 
+     <div id="IFX_p2051" class="con_xinfang" style=""></div> 
+     <div style="display: none"> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="iframe-layer-mask forms-single no-thirds no-others" id="rptLoginMask"> 
+  <div class="iframe-layer-bg"></div> 
+  <div class="iframe-login-wrap" id="rptLoginWrap"> 
+   <iframe class="iframe-login-ifm" id="rptLoginIfm" src="https://login.anjuke.com/login/iframeform?forms=10&amp;third_parts=000&amp;other_parts=000&amp;multi_form=1" frameborder="0" scrolling="no"></iframe> 
+  </div> 
+ </div> 
+ <div class="iframe-layer-mask no-stepover" id="rptBindPhoneMask"> 
+  <div class="iframe-layer-bg"></div> 
+  <div class="iframe-login-wrap" id="rptBindPhoneWrap"> 
+   <iframe class="iframe-login-ifm" id="rptBindPhone" src="https://login.anjuke.com/login/iframebindphoneform?step_over=1&amp;multi_form=2" frameborder="0" scrolling="no"></iframe> 
+  </div> 
+ </div> 
+ <!--悬浮条--> 
+ <div class="topBar-wrap"> 
+  <div class="topBar-cont"> 
+  </div> 
+ </div> 
+</div>
