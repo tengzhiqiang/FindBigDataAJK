@@ -9,7 +9,4 @@ public interface IProcessHtml {
 
 	public PageEntity pageHtml(String html,String url);
 	public List<SealEntity> analyseHtml(PageEntity page);
-	public List<PageEntity> getListPage();
-	public List<SealEntity> getListSeal(int start,int limit) ;
-
 }

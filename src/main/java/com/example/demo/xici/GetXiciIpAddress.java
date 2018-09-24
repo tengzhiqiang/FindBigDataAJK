@@ -1,4 +1,4 @@
-package com.example.demo.util;
+package com.example.demo.xici;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +8,9 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import com.example.demo.util.AgentVo;
+import com.example.demo.util.HttpContent;
 
 public class GetXiciIpAddress {
 	
@@ -28,7 +31,7 @@ public class GetXiciIpAddress {
 		List<AgentVo> agentVos = new ArrayList<AgentVo>();
 		AgentVo agentVo = null;
 		String url = "http://www.xicidaili.com/nn/";
-		for (int i = 1; i < 4; i++) {
+		for (int i = 1; i < 5; i++) {
 			
 			String content = HttpContent.httpUtil(url+i);
 			Document root = Jsoup.parse(content);
@@ -43,6 +46,7 @@ public class GetXiciIpAddress {
 				agentVos.add(agentVo);
 			}
 		}
+		System.err.println("获取到的IP数量："+agentVos.size());
 		 return agentVos;
 	}
 	

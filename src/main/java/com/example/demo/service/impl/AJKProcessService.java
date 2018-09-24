@@ -1,7 +1,5 @@
 package com.example.demo.service.impl;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +8,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.example.demo.JdbcServince;
 import com.example.demo.entity.PageEntity;
 import com.example.demo.entity.SealEntity;
 import com.example.demo.service.IProcessHtml;
@@ -66,7 +63,7 @@ public class AJKProcessService implements IProcessHtml {
 			}
 //			详细信息
 			Elements details = element.select(".details-item span");
-			if (details != null && details.size() > 0) {
+			if (details != null && details.size() > 5) {
 				
 				sealEntity.setHousetype(details.get(0).text());
 				sealEntity.setArea(details.get(1).text());
@@ -87,66 +84,5 @@ public class AJKProcessService implements IProcessHtml {
 		}
 		return seals;
 	}
-
-	@Override
-	public List<PageEntity> getListPage() {
-		StringBuilder sql = new StringBuilder(" select * from t_page");
-		ResultSet rs = JdbcServince.excutQuery(JdbcServince.getConnection(), sql.toString());
-		List<PageEntity> list = rowPageMapper(rs);
-		return list;
-	}
-	
-	public List<PageEntity> rowPageMapper(ResultSet rs) {
-		List<PageEntity> list = new ArrayList<PageEntity>();
-		PageEntity pageEntity = null;
-		try {
-			while (rs.next()) {
-				pageEntity = new PageEntity();
-				pageEntity.setContent(rs.getString("content"));
-				pageEntity.setId(rs.getLong("id"));
-				pageEntity.setOnpage(rs.getString("onpage"));
-				pageEntity.setOnurl(rs.getString("onurl"));
-				list.add(pageEntity);
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return list;
-	}
-
-	@Override
-	public List<SealEntity> getListSeal(int start,int limit) {
-		StringBuilder sql = new StringBuilder("select * from t_seal limit "+start+" , "+limit);
-		ResultSet rs = JdbcServince.excutQuery(JdbcServince.getConnection(), sql.toString());
-		return rowSealMapper(rs);
-	}
-	
-	public List<SealEntity> rowSealMapper(ResultSet rs) {
-		List<SealEntity> list = new ArrayList<SealEntity>();
-		SealEntity seal = null;
-		try {
-			while (rs.next()) {
-				seal = new SealEntity();
-				seal.setId(rs.getLong("id"));
-				seal.setAddress(rs.getString("address"));
-				seal.setAddtime(rs.getString("addtime"));
-				seal.setAjk(rs.getInt("ajk"));
-				seal.setArea(rs.getString("area"));
-				seal.setBlocktype(rs.getString("blocktype"));
-				seal.setHerf(rs.getString("herf"));
-				seal.setPlotname(rs.getString("plotname"));
-				seal.setTitle(rs.getString("title"));
-				seal.setTotleprice(rs.getString("totleprice"));
-				seal.setUnitprice(rs.getString("unitprice"));
-				seal.setYear(rs.getString("year"));
-				seal.setZoone(rs.getString("zoone"));
-				list.add(seal);
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return list;
-	}
-
 
 }
