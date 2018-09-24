@@ -27,7 +27,8 @@ public class StoreService implements IStoreService {
 	@Override
 	public void storeSeal(SealEntity sealEntity) {
 		String addtime = DateFormatUtils.format(new Date(), pattern);
-		String sql = " INSERT INTO t_seal (title, herf, housetype,area,blocktype,year,address,totleprice,unitprice,zoone,plotname,ajk,addtime) VALUES ( ";
+		String sql = " INSERT INTO t_seal (title, herf, housetype,area,blocktype,year,address,totleprice,unitprice,zoone,plotname,ajk,"
+				+ "houseid, publictime, houseclass,buytimes,orient,firstpay,monthpay,decoration,addtime) VALUES ( ";
 		sql += "'"+sealEntity.getTitle()+"',";
 		sql += "'"+sealEntity.getHerf()+"',";
 		sql += "'"+sealEntity.getHousetype()+"',";
@@ -40,6 +41,16 @@ public class StoreService implements IStoreService {
 		sql += "'"+sealEntity.getZoone()+"',";
 		sql += "'"+sealEntity.getPlotname()+"',";
 		sql += "'"+sealEntity.getAjk()+"',";
+		
+		sql += "'"+sealEntity.getHouseid()+"',";
+		sql += "'"+sealEntity.getPublictime()+"',";
+		sql += "'"+sealEntity.getHouseclass()+"',";
+		sql += "'"+sealEntity.getBuytimes()+"',";
+		sql += "'"+sealEntity.getOrient()+"',";
+		sql += "'"+sealEntity.getFirstpay()+"',";
+		sql += "'"+sealEntity.getMonthpay()+"',";
+		sql += "'"+sealEntity.getDecoration()+"',";
+		
 		sql += "'"+addtime+"'";
 		sql += ")";
 		JdbcServince.excuteUpdate(JdbcServince.getConnection(), sql);

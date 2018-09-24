@@ -17,6 +17,15 @@ public class SealEntity {
 	private int ajk;//安选验真
 	private String addtime;
 	
+	private String houseid; //房屋编码
+	private String publictime;//发布时间
+	private String houseclass ;//普通住宅，商业住房，单身公寓
+	private String buytimes;//满五年，满两年，两年以内
+	private String orient;//南北朝向，东西朝向
+	private float firstpay;//参考首付
+	private float monthpay;//月供
+	private String decoration;//精装修，普通装修，毛坯
+	
 	
 	public long getId() {
 		return id;
@@ -101,6 +110,54 @@ public class SealEntity {
 	}
 	public void setAddtime(String addtime) {
 		this.addtime = addtime;
+	}
+	public String getHouseid() {
+		return houseid;
+	}
+	public void setHouseid(String houseid) {
+		this.houseid = houseid;
+	}
+	public String getPublictime() {
+		return publictime;
+	}
+	public void setPublictime(String publictime) {
+		this.publictime = publictime;
+	}
+	public String getHouseclass() {
+		return houseclass;
+	}
+	public void setHouseclass(String houseclass) {
+		this.houseclass = houseclass;
+	}
+	public String getBuytimes() {
+		return buytimes;
+	}
+	public void setBuytimes(String buytimes) {
+		this.buytimes = buytimes;
+	}
+	public String getOrient() {
+		return orient;
+	}
+	public void setOrient(String orient) {
+		this.orient = orient;
+	}
+	public float getMonthpay() {
+		return monthpay;
+	}
+	public void setMonthpay(float monthpay) {
+		this.monthpay = monthpay;
+	}
+	public float getFirstpay() {
+		return firstpay;
+	}
+	public void setFirstpay(float firstpay) {
+		this.firstpay = firstpay;
+	}
+	public String getDecoration() {
+		return decoration;
+	}
+	public void setDecoration(String decoration) {
+		this.decoration = decoration;
 	}
 	
 	

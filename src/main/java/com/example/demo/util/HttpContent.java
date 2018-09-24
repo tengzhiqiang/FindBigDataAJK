@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpHost;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -24,14 +25,14 @@ public class HttpContent {
 		
 		Random random = new Random();
 		int index = random.nextInt(list.size());
-		httpAgent(list.get(index));
 		
 		HttpClientBuilder builder = HttpClients.custom();
 		String content = "";int loop = 0;
 		
 		try {
 			CloseableHttpClient client = builder.build();
-			RequestConfig requestConfig = RequestConfig.custom().build();
+			HttpHost proxy=new HttpHost(list.get(index).getIp(), Integer.parseInt(list.get(index).getPort()));
+			RequestConfig requestConfig = RequestConfig.custom().setProxy(proxy).build();
 			HttpGet request = new HttpGet(url);
 			request.setConfig(requestConfig);
 			request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0"); // 设置请求头消息User-Agent
