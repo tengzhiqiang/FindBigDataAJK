@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Random;
 
 import org.apache.http.HttpEntity;
-import org.apache.http.HttpHost;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -31,8 +30,9 @@ public class HttpContent {
 		
 		try {
 			CloseableHttpClient client = builder.build();
-			HttpHost proxy=new HttpHost(list.get(index).getIp(), Integer.parseInt(list.get(index).getPort()));
-			RequestConfig requestConfig = RequestConfig.custom().setProxy(proxy).build();
+//			HttpHost proxy=new HttpHost(list.get(index).getIp(), Integer.parseInt(list.get(index).getPort()));
+//			RequestConfig requestConfig = RequestConfig.custom().setProxy(proxy).build();
+			RequestConfig requestConfig = RequestConfig.custom().build();
 			HttpGet request = new HttpGet(url);
 			request.setConfig(requestConfig);
 			request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0"); // 设置请求头消息User-Agent
