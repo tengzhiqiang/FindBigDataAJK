@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -18,12 +19,7 @@ public class GetXiciIpAddress {
 	
 	public static void main(String[] args) {
 		
-		Random random = new Random();
-		for (int i = 0; i < 100; i++) {
-			System.out.println(random.nextInt(100));
-		}
-		
-		getListAgents();
+		getXshuIpAddress(new ArrayList<>());
 	}
 	
 	
@@ -54,6 +50,68 @@ public class GetXiciIpAddress {
 		Random random = new Random() ;
 		int index = random.nextInt(list.size());
 		return list.get(index);
+	}
+	
+	/**
+	 * 获取66代理的ip
+	 * @param list
+	 * @return
+	 */
+	public static List<AgentVo> get66Ip(List<AgentVo> list) {
+		String url = "http://www.66ip.cn/nmtq.php?getnum=50&isp=0&anonymoustype=0&start=&ports=&export=&ipaddress=&area=1&proxytype=1&api=66ip";
+
+		String content = HttpContent.httpUtil(url);
+
+		content = content.substring(content.indexOf("<body>")+6,content.lastIndexOf("<br>"));
+		System.out.println(content);
+		String[] ipv4 = content.split("<br>");
+		System.out.println("**********************分割线*******************");
+		AgentVo agentVo = null;
+		for (String ipadress : ipv4) {
+			agentVo = new AgentVo();
+			if (StringUtils.isNoneBlank(ipadress)) {
+				String[] iparrays = ipadress.split(":");
+				System.out.println(ipadress);
+				if (iparrays.length > 1) {
+					agentVo.setIp(iparrays[0]);
+					agentVo.setPort(iparrays[1]);
+				}
+			}
+		}
+		return list;
+	}
+	
+	
+	/**
+	 * 获取小舒IP代理
+	 * @param list
+	 * @return
+	 */
+	public static List<AgentVo> getXshuIpAddress(List<AgentVo> list) {
+		String common = "http://www.xsdaili.com/dayProxy/ip/";
+		
+//		计算今天是什么数字，然后组装成
+		String count = 1111+".html";
+		
+		String url = common+count;
+		
+		String content = HttpContent.httpUtil(url);
+		Document root = Jsoup.parse(content);
+		Elements elements = root.select(".cont");
+		System.out.println(elements.get(0).toString());
+		String[] strs = elements.get(0).toString().split("<br>");
+		AgentVo agentVo = null;
+		for (int i = 1;i<strs.length-1;i++) {
+			String tem = strs[i].substring(0,strs[i].indexOf("@"));
+			String[] array = tem.split(":");
+			if (array.length>1) {
+				agentVo = new AgentVo();
+				agentVo.setIp(array[0]);
+				agentVo.setPort(array[1]);
+				list.add(agentVo);
+			}
+		}
+		return list;
 	}
 	
 }
